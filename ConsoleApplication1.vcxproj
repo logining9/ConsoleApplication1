@@ -127,13 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="app.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
-    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="items.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="app.hpp" />
-    <ClInclude Include="TaskManager.hpp" />
+    <ClInclude Include="item.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
